@@ -1,3 +1,45 @@
-.foter{
-    
+.footer{
+    margin-top: 20px ;
+    background-color: #4e13ce ;
+z-index: 1;
+padding: 90px 0;
+font-size: 20px;
+
+
+.footer__wrapper{
+    display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.home{
+width: 170px;
+height: 200px;
+margin-right: 100px;
+p{
+    margin-top: 35px;
+}
+color: $bg-light;
+
+}
+.room{
+    color: $bg-light;
+    width: 200px;
+    .title{
+        font-size: 28px;
+        font-weight: bolder;
+        margin-bottom: 18px;
+        transition: .4s;
+
+    }
+    p{
+        font-size:20px;
+        padding-top: 10px;
+        transition: .5s;
+        font-weight: bolder;
+    }
+    :hover{
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+}
 }

@@ -1,8 +1,10 @@
 .related{
     background: $bg-dark;
     color: $bg-light;
-    padding: 50px 0 600px 0;
+    padding: 50px   0;
     text-align: center;
+    position: relative;
+    
     p{
         margin: auto;
         font-size: 48px;
@@ -15,11 +17,12 @@
         border: 3px solid $bg-gold;
        max-width: 460px;
         height: 70px;
-        align-items: center;
         padding: 10px;
         font-size: 30px;
         color: $bg-gold;
-        
+        &:hover{
+            border-radius: 10px 0 30px ;  
+        }
     }
     button{
         margin-left: 10px;
