@@ -1,0 +1,33 @@
+.best{
+    padding:150px 0
+  }
+  .best__bag{
+      background-color: $bg-dark;
+      padding: 150px 0;
+  
+      .best__title{
+          font-size: 50px;
+               color: $bg-light;           
+           }
+  
+  
+   .bag__book{
+  font-size: 30px;
+  color: $bg-light;
+
+  
+   }
+    .bag__wrapper{
+      padding-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }  
+    .smalbook{  
+      width: 260px;
+    
+    }
+    .book{
+        width: 570px;
+    }
+  }

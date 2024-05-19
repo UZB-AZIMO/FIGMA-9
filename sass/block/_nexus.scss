@@ -1,0 +1,40 @@
+.nexus{
+    background-color: $bg-dark;
+   
+    .nexus__subtitle{
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 57.6px;
+        color: $bg-light;
+        }
+       
+
+    .nexus__wrapper{
+        margin: 32px 0 0 0;
+        display: flex;
+flex-wrap: wrap;
+gap: 40px;
+    }
+    &__card{
+        width: 360px;
+        background-color: $bg-py;
+      padding: 43px 26px 35px;
+      text-align: center;
+      color: $bg-light;
+      transition: .7s;
+
+      &:hover{
+        color:$bg-dark;
+        background: #ba7e58;;
+        cursor: pointer;
+        
+      }
+      p{
+        font-family: Neue Machina;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: center;
+      }
+}
+}

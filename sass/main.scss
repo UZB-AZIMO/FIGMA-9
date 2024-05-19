@@ -1,0 +1,16 @@
+@import "varibale";
+@import "fonts";
+@import "mixins";
+@import "reset";
+
+
+@import "block/header";
+@import "block/hero";
+@import "block/currency";
+@import "block/revolution";
+@import "./block/nexus.scss";
+@import"./block/best";
+
+body{
+    min-height: 500vh;
+}
