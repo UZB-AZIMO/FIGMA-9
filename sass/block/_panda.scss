@@ -1,0 +1,54 @@
+.panda{
+    margin-top: -35px;
+background: $bg-dark;
+
+.panda__wrapper{
+    margin: 32px 0 0 0;
+    display: flex;
+flex-wrap: wrap;
+gap: 40px;
+}
+.card{
+    width: 360px;
+    background-color: $bg-py;
+    flex-direction: column;
+
+    .body{
+        padding: 25px;
+        p{
+            color: $bg-light;
+            font-size: 20px;
+            margin:0 0 10px 0;
+    
+        }
+        .littel{
+            display: flex;
+            align-items: center;
+            gap: 10px;   
+            margin:-10px 0  45px 0;
+            p{
+                margin-top: 15px;
+                color: $bg-gold;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+        }
+
+
+    }
+}
+
+
+
+            
+
+
+
+
+
+
+
+
+
+}

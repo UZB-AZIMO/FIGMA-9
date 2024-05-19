@@ -1,0 +1,19 @@
+.bottom__navbar{
+    background-color:$bg-dark;  
+    padding: 0 0 40px 0; 
+    .btn{
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        transition: .5s;
+        color: $bg-light;
+        background-color: #252525;
+        font-weight: 400;
+        &:hover{
+background-color: $bg-sy;
+color: #252525;
+        }
+    }
+    }
+
+    

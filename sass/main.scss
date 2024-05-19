@@ -1,5 +1,4 @@
 @import "varibale";
-@import "fonts";
 @import "mixins";
 @import "reset";
 
@@ -10,6 +9,8 @@
 @import "block/revolution";
 @import "./block/nexus.scss";
 @import"./block/best";
+@import "./block/bottom__navbar";
+@import"./block/panda";
 
 body{
     min-height: 500vh;
