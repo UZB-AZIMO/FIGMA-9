@@ -1,0 +1,41 @@
+.bring{
+    padding: 50px 0;
+background-color:#1A1919;
+color: $bg-light;
+
+.title{
+    width: 720px;
+    font-size: 46px;
+    font-weight: bolder;
+    
+}
+
+.text{
+    margin: 40px 0;
+    width: 1110px;
+    font-size: 32px;
+    
+}
+
+
+.bring__wrapper{
+    margin: 32px 0 0 0;
+    display: flex;
+flex-wrap: wrap;
+gap: 40px;
+}
+.card{
+    width: 360px;
+    padding: 40px;
+    font-size: 20px;
+    background-color: $bg-py;
+    color: $bg-light;
+
+    p{
+        margin-top: 24px;
+    }
+    }
+
+
+}
+
