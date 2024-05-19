@@ -1,0 +1,10 @@
+.green{
+    background-color: $bg-sy;
+    height: 500px;
+position: relative;
+text-align: center;
+img{
+    margin-top: -500px;
+    object-fit: cover;
+}
+}
